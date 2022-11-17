@@ -1,0 +1,22 @@
+set F := F1 F2 F3 F4;
+
+set N := large mid small;
+
+param r := 
+        F1 0.1
+        F2 0.15
+        F3 0.16
+        F4 0.08;
+
+param a : F1 F2 F3 F4:=
+    large 0.50 0.30 0.25 0.60
+    mid   0.30 0.10 0.40 0.20
+    small 0.20 0.60 0.35 0.20;
+
+param Nmax :=
+    large 0.35
+    mid   0.30
+    small 0.15;
+
+param Budget := 80;
+
